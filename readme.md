@@ -171,10 +171,13 @@ Desempenhar seu trabalho de uma maneira que minimize custos, tempo e efeitos ind
 </div>
 
 ## Dia 4: Fundamentos do teste de software
+### Grupo 2: Édina, Beatriz, Luana e João.
 
+Os fundamentos do teste de software são cruciais para garantir a qualidade dos projetos de software. Aqui estão alguns princípios e práticas fundamentais para gerar qualidade nos projetos de teste:
 
+Entendimento dos requisitos, Planejamento de testes, Automatização de testes, Design de casos de teste, Execução de testes, Rastreamento de defeitos, Colaboração entre desenvolvimento e testes, Teste e regressão, Melhoria contínua e Documentação.
 
-
+Ao seguir esses fundamentos do teste de software, as equipes podem construir uma base sólida para garantir a qualidade dos projetos, identificar defeitos precocemente e fornecer software confiável aos usuários.
 
 
 
