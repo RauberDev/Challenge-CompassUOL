@@ -179,6 +179,25 @@ Entendimento dos requisitos, Planejamento de testes, Automatização de testes, 
 
 Ao seguir esses fundamentos do teste de software, as equipes podem construir uma base sólida para garantir a qualidade dos projetos, identificar defeitos precocemente e fornecer software confiável aos usuários.
 
+## Dia 5: Fundamentos do teste de software (Back-End)
+
+Importância dos testes:
+Agrega valor ao projeto porque pode-se antecipar testes e consegue o quanto antes achar bugs e erros para que isso não vá para a produção e não chegue ao cliente.
+
+Ciclo de vida:
+
+Foi realizado um teste de ponta a ponta e validou-se uma Api que está funcionando dentro do nosso sistema assim podendo validar uma fonte e uma API que está rodando junto.
+
+Pirâmide de testes:
+
+-Teste Unitário: É um método público, conjunto de classes, método de objetos que interagem entre si. Verificam o funcionamento da menor unidade de código testado da nossa aplicação, independente da interação dela com outras partes do nosso código
+
+-Teste de Integração: Seu objetivo é encontrar defeitos e falhas entre várias interfaces do software
+
+-Teste E2E (End to End): São os teste de ponto a ponto que simulam o ambiente real (verificação de algo esperado como por exemplo se o aplicativo funciona corretamente.
+
+E por fim foi apresentado em vídeo o Ciclo de teste E2E.
+
 
 
 
