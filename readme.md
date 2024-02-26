@@ -14,6 +14,12 @@ No dia 1 aprendemos a fazer o uso do Git e GitLab para fazer o uso correto do RE
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/d4cf2d2e-97d2-473a-b790-828e665583b8" width="190px" />
 </div>
 
+Peguei referência do site Java Full Stack
+
+https://git-scm.com/downloads/logos	- Imagem 1
+
+https://www.edivaldobrito.com.br/wp-content/uploads/2023/09/gitlab-lancou-atualizacoes-de-seguranca-para-uma-falha-critica.webp	 - Imagem 2
+
 ## Dia 2: Planning Sprint 1
 No dia 2 aprendemos a definição de Scrum, suas teorias, valores, eventos, artifacts, backlogs e incrementos.
 <div align="left">
@@ -66,7 +72,19 @@ Valor ágil 4 - Responder a mudanças ao invés de seguir um plano.
 <div align="left">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/0156317a-215f-487e-8b0d-a76278547daa" width="350px" />
 </div>
+https://blog.geekhunter.com.br/manifesto-agil/ - Pesquisa
 
+https://www.ieepeducacao.com.br/sprint-planning/ - Pesquisa
+
+https://static-00.iconduck.com/assets.00/scrum-icon-2048x1586-y3fa1kw2.png - Imagem 1
+
+https://storage.googleapis.com/dpw/app/uploads/2008/11/web-sites-e-comunicacao-21-maneiras-de-os-sites-se-comunicarem-com-seus-visitantes.png - Imagem 2
+
+https://scrumorg-website-prod.s3.amazonaws.com/drupal/s3fs-public/styles/cke_media_resize_medium/public/2023-11/Sprint-Planning-v2.jpg?itok=sIFIEfjr - Imagem 3
+
+https://manifestoagil.com.br/wp-content/uploads/2021/07/principios-manifesto-agil.jpg - Imagem 4
+
+https://s3.amazonaws.com/bucket.sankhya/sankhya/wp-content/uploads/2022/12/02120116/Valores-do-manifesto-agil.png - Imagem 5
 
 ## Dia 3: Scrum, Papéis e Responsabilidades
 No dia 3 estudamos sobre os diferentes papéis dentro de uma equipe ágil. Também foi aprofundado um pouco mais de Scrum através do curso disponibilizado.
@@ -169,6 +187,25 @@ Desempenhar seu trabalho de uma maneira que minimize custos, tempo e efeitos ind
 <div align="center">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/8e015390-3893-4a1f-b422-173e5e1f127d" width="400px" />
 </div>
+https://www.youtube.com/watch?v=yFUv4HK-leY&t=124s - Pesquisa 1
+
+https://awari.com.br/scrum-conheca-os-principais-papeis-e-responsabilidades/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Scrum:%20Conhe%C3%A7a%20os%20principais%20pap%C3%A9is%20e%20responsabilidades - Pesquisa 2
+
+https://odonodoproduto.com/epic-feature-and-story-epico-funcionalidade-e-historia/ - Pesquisa 3
+
+https://madeinweb.com.br/wp-content/uploads/2019/01/quais-sao-os-profissionais-envolvidos-no-desenvolvimento-de-aplicativos-5-1280x720.png - Imagem 1
+
+https://agileschool.com.br/wp-content/uploads/2020/03/artigo-po-2003-1.png - Imagem 2
+
+https://media.licdn.com/dms/image/D4D12AQHpS3CafjRUrw/article-cover_image-shrink_720_1280/0/1681218924097?e=2147483647&v=beta&t=i-mK4Ia_0VFDpXA1n0JFbLUPO-QEiLmmVgQ-gPTeKjA - Imagem 3
+
+https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-with-sdo-logo-9.29.23.png - Imagem 4
+
+https://www.scrum.as/academy/5/gfx/scrum_3.3_1.png - Imagem 5
+
+https://realizehub.com/wp-content/uploads/2022/09/blogprocesso-scrum.jpg - Imagem 6
+
+https://www.transperfect.com/sites/default/files/styles/responsive_image_2000/public/media/image/Learning%20About%20Quality%20The%20Difference%20Between%20QA%20%26%20QC.jpg?itok=y3_PRKlh - Imagem 7
 
 ## Dia 4: Fundamentos do teste de software
 ### Grupo 2: Édina, Beatriz, Luana e João.
@@ -211,17 +248,3 @@ Cerca de 20% do esforço que você dedica ao trabalho são responsáveis por 80%
 https://rockcontent.com/br/blog/principio-de-pareto/        -Pesquisa
 
 https://avio.com.br/wp-content/uploads/2021/02/principio-de-pareto-80-20.png        -Imagem
-
-
-
-
-
-
-
-
-
-
-
-
-
-
