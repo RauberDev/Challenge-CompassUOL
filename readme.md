@@ -198,6 +198,20 @@ Pirâmide de testes:
 
 E por fim foi apresentado em vídeo o Ciclo de teste E2E.
 
+## Dia 6: Myers e o princípio de Pareto
+
+O Princípio de Pareto, ou regra 80/20, é uma tendência que prevê que 80% dos efeitos surgem a partir de apenas 20% das causas, podendo ser aplicado em várias outras relações de causa e efeito.
+
+Cerca de 20% do esforço que você dedica ao trabalho são responsáveis por 80% do seu desempenho, 20% dos produtos ou serviços que sua empresa comercializa retornam 80% do faturamento, e 20% dos seus colaboradores garantem 80% dos resultados. Esse é o famoso Princípio de Pareto, um padrão intrigante observado nos mais distintos cenários e contextos.
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/7ab3757e-b39b-436a-8779-9c5d5b2a8145" width="400px" />
+</div>
+
+https://rockcontent.com/br/blog/principio-de-pareto/        -Pesquisa
+
+https://avio.com.br/wp-content/uploads/2021/02/principio-de-pareto-80-20.png        -Imagem
+
 
 
 
