@@ -248,3 +248,86 @@ Cerca de 20% do esforço que você dedica ao trabalho são responsáveis por 80%
 https://rockcontent.com/br/blog/principio-de-pareto/        -Pesquisa
 
 https://avio.com.br/wp-content/uploads/2021/02/principio-de-pareto-80-20.png        -Imagem
+
+## Dia 7: SQL
+
+Primeiramente eu salvei o arquivo database_challenge.sql em um arquivo de texto, depois coloquei o arquivo.
+Depois, eu segui os passos aos quais foram dados e funcionou corretamente.
+No site ao qual foi oferecido eu importei os dados e fiz os testes da primeira parte e foi um sucesso.
+
+### Teste 1: 16
+
+### Teste 2: id 10 nome: Lucca Ryan Jesus email:lucca_ryan_jesus@imoveisvillani.com.br
+
+### Teste 3: id 13 nome: Bruce Wayne email: brucewayne@gothan.com
+
+### Teste 4: id 4 nome: Ghost Silva email: ghost_silva@fantasma.com
+
+### Teste 5:
+DELETE FROM usuarios
+
+WHERE email = 'peterparker@marvel.com';
+
+E depois de realizar os testes da primeira parte eu comecei a segunda parte:
+
+### Teste 1:
+
+id 5 nome: caneca chopp categoria: utilitários preço: R$25,50
+
+id 6 nome: copo grande térmico categoria: utilitários preço:R$35,90
+
+### Teste 2:
+
+id 7 nome: mouse gamer categoria: games preço:R$101,00 descrição: Mouse com leds
+
+id 8 nome: teclado gamer categoria: games preço: R$99,00 descrição: Teclado com leds
+
+id 9 nome: monitor gamer categoria: games preço: R$1500,00 descrição: Monitor grande para jogar
+
+id 10 nome: jogo batman categoria: games preço: R$150,00 descrição: Jogo do Batman para PC
+
+id 11 nome: jogo tomb raider categoria: games preço: R$100,00 descrição: Jogo Tomb Raider para PC
+
+id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo Spider-man para PS4
+
+id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
+
+### Teste 3:
+
+id 3 nome: adesivo categoria: utilitários preço: R$0,00 descrição: Adesivo com precificação para produtos
+
+id 4 nome: caneca categoria: utilitários preço: 0,00 descrição: Caneca para café
+
+### Teste 4:
+
+id 7 nome: mouse gamer categoria: games preço:R$101,00 descrição: Mouse com leds
+
+id 9 nome: monitor gamer categoria: games preço: R$1500,00 descrição: Monitor grande para jogar
+
+id 10 nome: jogo batman categoria: games preço: R$150,00 descrição: Jogo do Batman para PC
+
+id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo Spider-man para PS4
+
+id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
+
+id 14 nome: guarda-roupas lady bug categoria: casa preço: R$2500,00 descrição: Guarda-roupas gigante da Lady Bug
+
+id 15 nome: cama solteiro categoria: casa preço: R$1800,00 descrição: Cama box solteiro
+
+### Teste 5:
+
+id 9 nome: monitor gamer categoria: games preço: R$1500,00 descrição: Monitor grande para jogar
+
+id 15 nome: cama solteiro categoria: casa preço: R$1800,00 descrição: Cama box solteiro
+
+### Teste 6:
+
+id 10 nome: jogo batman categoria: games preço: R$150,00 descrição: Jogo do Batman para PC
+
+id 11 nome: jogo tomb raider categoria: games preço: R$100,00 descrição: Jogo Tomb Raider para PC
+
+id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo Spider-man para PS4
+
+id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
+
+https://www.youtube.com/watch?v=o8ATzYcVp08&list=PL1lueKDtZ3DcmhZX7pDk4sSgApuZwgVwb -Pesquisa
