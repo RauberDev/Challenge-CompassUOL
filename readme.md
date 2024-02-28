@@ -333,3 +333,277 @@ id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac
 https://www.youtube.com/watch?v=o8ATzYcVp08&list=PL1lueKDtZ3DcmhZX7pDk4sSgApuZwgVwb -Pesquisa 1
 
 https://sqliteonline.com/ -Pesquisa 2
+
+## Dia 8: NOSQL
+
+## Dia 8: NOSQL
+
+1) Realizar uma consulta que conte o número de registros existentes.
+
+db.usuarios.count();
+
+[16];
+
+2) Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish".
+
+
+
+
+
+
+3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".
+
+db.nome_da_colecao.find({ "nome": "Bruce Wayne" });
+
+
+[
+  {
+    _id: "65df7bdc37d2b65a807c7c50",
+    nome: "Bruce Wayne",
+    email: "brucewayne@gothan.com",
+  },
+];
+
+4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com".
+
+db.nome_da_colecao.find({ "email": "ghost_silva@fantasma.com" });
+
+
+[
+  {
+    _id: "65df7c1137d2b65a807c7c63",
+    nome: "Ghost Silva",
+    email: "ghost_silva@fantasma.com",
+  },
+];
+
+
+
+1) Realizar uma consulta que apresente produtos com descrição vazia;
+
+db.produtos.find({ "descricao": "" });
+
+[
+  {
+    _id: "65df7c9a37d2b65a807c7c9c",
+    nome: "caneca chopp",
+    categoria: "utilitários",
+    preco: 25.5,
+    descricao: "",
+  },
+  {
+    _id: "65df7c9a37d2b65a807c7c9d",
+    nome: "copo grande térmico",
+    categoria: "utilitários",
+    preco: 35.9,
+    descricao: "",
+  },
+];
+
+
+2) Realizar uma consulta que apresente produtos com a categoria "games";
+
+db.produtos.find({ "categoria": "games" });
+
+
+[
+  {
+    _id: "65df7cbb37d2b65a807c7cb7",
+    nome: "mouse gamer",
+    categoria: "games",
+    preco: 101,
+    descricao: "Mouse com leds.",
+  },
+  {
+    _id: "65df7cbb37d2b65a807c7cb8",
+    nome: "teclado gamer",
+    categoria: "games",
+    preco: 99,
+    descricao: "Teclado com leds.",
+  },
+  {
+    _id: "65df7cbb37d2b65a807c7cb9",
+    nome: "monitor gamer",
+    categoria: "games",
+    preco: 1500,
+    descricao:
+      "Monitor grande para jogar.",
+  },
+  {
+    _id: "65df7cbb37d2b65a807c7cba",
+    nome: "jogo batman",
+    categoria: "games",
+    preco: 150,
+    descricao:
+      "Jogo do Batman para PC.",
+  },
+  {
+    _id: "65df7cbb37d2b65a807c7cbb",
+    nome: "jogo tomb raider",
+    categoria: "games",
+    preco: 100,
+    descricao:
+      "Jogo Tomb Raider para PC.",
+  },
+  {
+    _id: "65df7cbb37d2b65a807c7cbc",
+    nome: "jogo spider-man",
+    categoria: "games",
+    preco: 200,
+    descricao:
+      "Jogo Spider-man para PS4.",
+  },
+  {
+    _id: "65df7cbb37d2b65a807c7cbd",
+    nome: "jogo pac-man",
+    categoria: "games",
+    preco: 180,
+    descricao:
+      "Jogo Pac-man para Xbox One.",
+  },
+];
+
+3) Realizar uma consulta que apresente produtos com preço "0";
+
+db.produtos.find({ "preco": 0 });
+
+[
+  {
+    _id: "65df7cf837d2b65a807c7cce",
+    nome: "adesivo",
+    categoria: "utilitários",
+    preco: 0,
+    descricao:
+      "desivo com precificação para produtos.",
+  },
+  {
+    _id: "65df7cf837d2b65a807c7ccf",
+    nome: "caneca",
+    categoria: "utilitários",
+    preco: 0,
+    descricao: "Caneca para café.",
+  },
+];
+
+4) Realizar uma consulta que apresente produtos com o preço maior que "100.00";
+
+db.produtos.find({ "preco": { $gt: 100.00 } });
+
+[
+  {
+    _id: "65df7d1a37d2b65a807c7cec",
+    nome: "mouse gamer",
+    categoria: "games",
+    preco: 101,
+    descricao: "Mouse com leds.",
+  },
+  {
+    _id: "65df7d1a37d2b65a807c7cee",
+    nome: "monitor gamer",
+    categoria: "games",
+    preco: 1500,
+    descricao:
+      "Monitor grande para jogar.",
+  },
+  {
+    _id: "65df7d1a37d2b65a807c7cef",
+    nome: "jogo batman",
+    categoria: "games",
+    preco: 150,
+    descricao:
+      "Jogo do Batman para PC.",
+  },
+  {
+    _id: "65df7d1a37d2b65a807c7cf1",
+    nome: "jogo spider-man",
+    categoria: "games",
+    preco: 200,
+    descricao:
+      "Jogo Spider-man para PS4.",
+  },
+  {
+    _id: "65df7d1a37d2b65a807c7cf2",
+    nome: "jogo pac-man",
+    categoria: "games",
+    preco: 180,
+    descricao:
+      "Jogo Pac-man para Xbox One.",
+  },
+  {
+    _id: "65df7d1a37d2b65a807c7cf3",
+    nome: "guarda-roupas lady bug",
+    categoria: "casa",
+    preco: 2500,
+    descricao:
+      "Guarda-roupas gigante da Lady Bug.",
+  },
+  {
+    _id: "65df7d1a37d2b65a807c7cf4",
+    nome: "cama solteiro",
+    categoria: "casa",
+    preco: 1800,
+    descricao: "Cama box solteiro.",
+  },
+];
+
+5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00";
+
+db.produtos.find({ "preco": { $gte: 1000.00, $lte: 2000.00 } });
+
+[
+  {
+    _id: "65df7d362cb48dd753933a3c",
+    nome: "monitor gamer",
+    categoria: "games",
+    preco: 1500,
+    descricao:
+      "Monitor grande para jogar.",
+  },
+  {
+    _id: "65df7d362cb48dd753933a42",
+    nome: "cama solteiro",
+    categoria: "casa",
+    preco: 1800,
+    descricao: "Cama box solteiro.",
+  },
+];
+
+6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo".
+
+db.produtos.find({ "nome": /jogo/i });
+
+[
+  {
+    _id: "65df7d4a37d2b65a807c7d09",
+    nome: "jogo batman",
+    categoria: "games",
+    preco: 150,
+    descricao:
+      "Jogo do Batman para PC.",
+  },
+  {
+    _id: "65df7d4a37d2b65a807c7d0a",
+    nome: "jogo tomb raider",
+    categoria: "games",
+    preco: 100,
+    descricao:
+      "Jogo Tomb Raider para PC.",
+  },
+  {
+    _id: "65df7d4a37d2b65a807c7d0b",
+    nome: "jogo spider-man",
+    categoria: "games",
+    preco: 200,
+    descricao:
+      "Jogo Spider-man para PS4.",
+  },
+  {
+    _id: "65df7d4a37d2b65a807c7d0c",
+    nome: "jogo pac-man",
+    categoria: "games",
+    preco: 180,
+    descricao:
+      "Jogo Pac-man para Xbox One.",
+  },
+];
+
