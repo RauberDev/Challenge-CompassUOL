@@ -330,4 +330,6 @@ id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo 
 
 id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
 
-https://www.youtube.com/watch?v=o8ATzYcVp08&list=PL1lueKDtZ3DcmhZX7pDk4sSgApuZwgVwb -Pesquisa
+https://www.youtube.com/watch?v=o8ATzYcVp08&list=PL1lueKDtZ3DcmhZX7pDk4sSgApuZwgVwb -Pesquisa 1
+
+https://sqliteonline.com/ -Pesquisa 2
