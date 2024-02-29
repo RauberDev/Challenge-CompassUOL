@@ -819,4 +819,33 @@ Dica 7: Transações na Internet
 
 -Toda comunicação transacional deve ser confirmada no site onde a compra foi efetuada (não confie no e-mail).
 
+Todo conteúdo usado foi achado nos vídeos recomendados pelo site do Estágio.
+
+Imagens usadas:
+https://previews.123rf.com/images/noono6/noono62002/noono6200200001/140943549-conceito-de-senha-f%C3%A1cil-senha-1234-escrita-em-um-papel-com-marcador.jpg
+
+https://www.indusface.com/wp-content/uploads/2022/05/KC-Image.png
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hacker_behind_PC.svg/1756px-Hacker_behind_PC.svg.png
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Femojiterra.com%2Fpt%2Frobo%2F&psig=AOvVaw0xlu-8Q8Eb0vk_p9TBDtr_&ust=1709324569087000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPC55K-w0YQDFQAAAAAdAAAAABAE
+
+https://images.ctfassets.net/63bmaubptoky/6jakcQn6hMXferI5H3iow/9f4999e87ddccfd480683e1b90d881e7/monitoramento-rede-BR-Capterra-Header.png
+
+https://cdn-icons-png.flaticon.com/512/193/193220.png
+
+https://new.safernet.org.br/sites/default/files/content_files/Worst%20Passwords%202015.png
+
+https://www.lastpass.com/-/media/e0fa08c5ac674fb5b777e67f103516e8.png?h=1560&w=2160&la=pt&hash=B93B5FDF7C1A90A7E02C652A917F1149
+
+https://www.iperiusbackup.net/wp-content/uploads/2021/03/imagem12.png
+
+https://lh3.googleusercontent.com/proxy/iA1KQZvkZGxSihv_GUQMhJigdl-IvXT_-ZzgJXMlan6zKv5yXZ7nFqbiSLtoqAQuyIGwK4aJicy_DRbTyEWi3AX2QPsCbok2
+
+https://indicca.com.br/wp-content/uploads/2021/06/Importancia_-Antivirus_Indicca-1.jpg
+
+https://media.istockphoto.com/id/1355611023/pt/foto/software-update-or-operating-system-upgrade-to-keep-the-device-up-to-date-with-added.jpg?s=612x612&w=0&k=20&c=G6ZuPpQTD_taOxQB7Tu315oIdnYmyT0x57Co_gErjJA=
+
+https://blog.validcertificadora.com.br/wp-content/uploads/2018/12/141542-transacoes-online-6-dicas-para-garantir-seguranca-ao-consumidor.jpg
+
 
