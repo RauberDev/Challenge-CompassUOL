@@ -614,3 +614,10 @@ db.produtos.find({ "nome": /jogo/i });
   },
 ];
 
+https://chat.openai.com/ - Pesquisa 1
+
+https://www.youtube.com/watch?time_continue=1790&v=x9tC0eK0GtA&embeds_referring_euri=https%3A%2F%2Fcompasso.sharepoint.com%2F&source_ve_path=MjM4NTE&feature=emb_title - Pesquisa 2
+
+https://www.mongodb.com/community/forums/ - Pesquisa 3
+
+
