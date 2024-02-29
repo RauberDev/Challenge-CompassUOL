@@ -630,4 +630,193 @@ https://www.youtube.com/watch?time_continue=1790&v=x9tC0eK0GtA&embeds_referring_
 
 https://www.mongodb.com/community/forums/ - Pesquisa 3
 
+## Dia 9: CyberSecurity
+
+No dia 9 Assisti os 4 vídeos recomendados e fiz um resumo de tudo o que foi apresentado.
+
+Vídeo 1: Como ser hackeado e perder todas suas informações;
+
+Vivemos o clima perfeito para fraudes, e perdas de dados digitais!
+-Mudança muito rápida na tecnologia;
+-Geração X está na maioria das empresas e não foram criados no ambiente tecnológico;
+-Millenials, estão mais acostumados com ambiente tecnológico, mas ainda tomam mais golpes;
+-Geração Z tem mais facilidade com a tecnologia.
+
+Dicas para ser hackeado com muito mais facilidade:
+
+1- clicar em todos os links de e-mail que você não conhece ou não sabe do que se trata;
+
+2- compartilhar senhas do wi-fi;
+
+3- usar a mesma senha para tudo;
+
+4- não fazer backup no PC.
+
+Dica: Pessoas solícitas e que buscam sempre ajudar são mais perigosas que sistemas mal configurados.
+
+Vídeo 2: Novo OWASP TOP 10 - 2021;
+
+O que é OWASP?
+
+-É uma organização que trabalha com objetivo de aprimorar a segurança de software.
+
+- Um de seus trabalhos mais importantes é atualizar um relatório com os 10 maiores riscos de segurança em uma aplicação web.
+
+Projetos Desenvolvidos:
+
+- Application Security Verification Standard (ASVS) é um padrão que contempla uma lista de requisitos e controles de segurança de aplicações.
+
+- E conta com projetos como: OWASP ZAP, OWASP Mobile Application Security Verification Standard (MASVS), OWASP Juice Shop, OpenSAMM, WSTG, etc.
+
+Principais mudanças no novo OWASP Top 2021
+
+- Cros Site Scripting (XXS) passou a fazer parte da categoria Injection nessa edição.
+
+- XML External Entities (XXE) agora faz parte dessa categoria de risco: Security Misconfiguration.
+
+- Insecure Deserialization deixou de ser uma categoria, para fazer parte dessa categoria maior chamada Software and Data Integrity Failures.
+
+OWASP API Security:
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/40ec77bc-583e-4dab-8ba8-6025725e71be" width="400px" />
+</div>
+
+
+Vídeo 3: Segurança de rede Wifi Doméstica;
+
+Através deste texto será apresentado quais são as ameaças e quais riscos eles podem trazer
+
+Sequestro de DNS
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/7c91cec3-133f-41d1-9a63-d7c40878ef59" width="100px" />
+</div>
+
+Botnets e Proxy
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/c173b32f-8b06-49bf-a12b-97b031567526" width="100px" />
+</div>
+
+Monitoramento de trafego
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/50f8ab9c-b6f5-444a-9539-51a29d6996c3" width="100px" />
+</div>
+
+Vazamento de Dados pessoais e senhas
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/8f8e6c90-2a81-4444-a914-2cb046ec2f45" width="100px" />
+</div>
+
+Como se precaver e defender dessas ameaças?
+
+Dentro da interface do roteador podemos:
+
+-Alterar as informações padrão do roteador;
+
+-Utilizar o WPA2 e AES256 (é um padrão internacional que garante uma segurança de dados superior);
+
+-Alterar periodicamente o nome da rede e a senha;
+
+-Ativar o firewall do roteador pessoal;
+
+-Bloquear dispositivos desconhecidos;
+
+-Ocultar o nome de rede;
+
+-Atualizar a firmware dos equipamentos.
+
+Como se blindar no Home-office?
+
+-Evitar acessar o ambiente de trabalho em redes públicas;
+
+-Usar senhas fortes;
+
+-Sempre verificar se o antivírus está ativo e atualizado;
+
+-Alterar as senhas periodicamente;
+
+-Nunca compartilhar usuários/senhas.
+
+
+Vídeo 4: Segurança Digital - Dicas para se proteger o dia-a-dia;
+
+Dica 1: Boas senhas
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/b1ee22a8-cda8-4a97-9922-276af00e488a" width="200px" />
+</div>
+
+EX: Senhas longas (mínimo de 12 caracteres), caracteres especiais (números, letras maiúsculas e minúsculas)
+
+Dica 2: Usar um gerenciador de senhas
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/b525e890-5ee1-483e-bc96-01e94a8baaa0" width="400px" />
+</div>
+
+É um aplicativo projetado especificamente para armanezar dadps de login em um "cofre" criptografado e gerar senhas complexas, para assim criar e guardar uma senha exclusiva e forte.
+
+Dica 3: MFA all the things (autenticação multifator)
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/5b471001-fe9d-49f1-9c76-11c5e3c39cc8" width="600px" />
+</div>
+
+EX:
+
+-Leituras de impressão digital;
+
+-Leituras de retina;
+
+-Reconhecimento de voz;
+
+-Reconhecimento facial;
+
+Dica 4: Cuidados com Phishing
+
+
+EX:
+
+-Verificar se o e-mail é um canal hostil;
+
+-Procurar sinais de fraude (remetente, erros ortográficos, utilização de encurtadores, etc)
+
+-Verificar os links.
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/3f089939-66cb-4c34-bdcf-f35105d3bd57" width="400px" />
+</div>
+
+Dica 5: Antivírus
+
+Ter um antivírus instalado no computador, certificar-se que está baixando atualizações automaticamente e se necessário criar exceções para aplivativos, processos e diretórios.
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/fb88adaf-b795-464c-9c71-287635af44e6" width="400px" />
+</div>
+
+Dica 6: Manter o software atualizado
+
+Certificar se o sistema operacional está configurado para baixar e instalar as atualizações de forma automática e periodicamente fazer o mesmo procedimento para os aplicativos que você utiliza.
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/9547c2ec-33ec-467f-b9dd-227f0483408d" width="400px" />
+</div>
+
+Dica 7: Transações na Internet
+
+<div align="center">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/31abe364-7279-4f9b-8107-44909dc0b16a" width="400px" />
+</div>
+
+-Utilizar sites confiáveis de ecommerce;
+
+-Fazer uso de cartão virtual;
+
+-Toda comunicação transacional deve ser confirmada no site onde a compra foi efetuada (não confie no e-mail).
+
 
