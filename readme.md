@@ -255,80 +255,77 @@ Primeiramente eu salvei o arquivo database_challenge.sql em um arquivo de texto,
 Depois, eu segui os passos aos quais foram dados e funcionou corretamente.
 No site ao qual foi oferecido eu importei os dados e fiz os testes da primeira parte e foi um sucesso.
 
-### Teste 1: 16
+### Teste 1:
 
-### Teste 2: id 10 nome: Lucca Ryan Jesus email:lucca_ryan_jesus@imoveisvillani.com.br
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/50dd9cf3-05c2-43f4-86a1-5b43aa308344" width="500px" />
+</div>
 
-### Teste 3: id 13 nome: Bruce Wayne email: brucewayne@gothan.com
+### Teste 2:
 
-### Teste 4: id 4 nome: Ghost Silva email: ghost_silva@fantasma.com
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/6f4cb96e-770e-47f1-930d-ba4a1af9ba9e" width="500px" />
+</div>
+
+### Teste 3:
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/33781f9f-982a-4252-bd83-5c1670934c9a" width="500px" />
+</div>
+
+### Teste 4:
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/5a720076-f2d5-41f9-9b24-de5ab8a9a2aa" width="500px" />
+</div>
 
 ### Teste 5:
-DELETE FROM usuarios
 
-WHERE email = 'peterparker@marvel.com';
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/04cc3e5f-1bce-4fd1-8960-c1f611eef07d" width="500px" />
+</div>
+
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/3862a41a-0e16-47be-8a00-9ce67cff28e1" width="500px" />
+</div>
 
 E depois de realizar os testes da primeira parte eu comecei a segunda parte:
 
 ### Teste 1:
 
-id 5 nome: caneca chopp categoria: utilitários preço: R$25,50
-
-id 6 nome: copo grande térmico categoria: utilitários preço:R$35,90
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/13fcfc44-5f14-441b-ae7c-dff7d8a29f2d" width="500px" />
+</div>
 
 ### Teste 2:
 
-id 7 nome: mouse gamer categoria: games preço:R$101,00 descrição: Mouse com leds
-
-id 8 nome: teclado gamer categoria: games preço: R$99,00 descrição: Teclado com leds
-
-id 9 nome: monitor gamer categoria: games preço: R$1500,00 descrição: Monitor grande para jogar
-
-id 10 nome: jogo batman categoria: games preço: R$150,00 descrição: Jogo do Batman para PC
-
-id 11 nome: jogo tomb raider categoria: games preço: R$100,00 descrição: Jogo Tomb Raider para PC
-
-id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo Spider-man para PS4
-
-id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/1ef0bafd-339b-497f-a954-d6149b55aa7f" width="500px" />
+</div>
 
 ### Teste 3:
 
-id 3 nome: adesivo categoria: utilitários preço: R$0,00 descrição: Adesivo com precificação para produtos
-
-id 4 nome: caneca categoria: utilitários preço: 0,00 descrição: Caneca para café
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/87c6212b-ed7f-4e9f-b902-3ef4fd7313f1" width="500px" />
+</div>
 
 ### Teste 4:
 
-id 7 nome: mouse gamer categoria: games preço:R$101,00 descrição: Mouse com leds
-
-id 9 nome: monitor gamer categoria: games preço: R$1500,00 descrição: Monitor grande para jogar
-
-id 10 nome: jogo batman categoria: games preço: R$150,00 descrição: Jogo do Batman para PC
-
-id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo Spider-man para PS4
-
-id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
-
-id 14 nome: guarda-roupas lady bug categoria: casa preço: R$2500,00 descrição: Guarda-roupas gigante da Lady Bug
-
-id 15 nome: cama solteiro categoria: casa preço: R$1800,00 descrição: Cama box solteiro
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/dfd8d61d-9631-4d65-a910-fc807bf42067" width="500px" />
+</div>
 
 ### Teste 5:
 
-id 9 nome: monitor gamer categoria: games preço: R$1500,00 descrição: Monitor grande para jogar
-
-id 15 nome: cama solteiro categoria: casa preço: R$1800,00 descrição: Cama box solteiro
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/c772d6b3-09b6-4aff-8999-b09a61304f02" width="500px" />
+</div>
 
 ### Teste 6:
 
-id 10 nome: jogo batman categoria: games preço: R$150,00 descrição: Jogo do Batman para PC
-
-id 11 nome: jogo tomb raider categoria: games preço: R$100,00 descrição: Jogo Tomb Raider para PC
-
-id 12 nome: jogo spider-man categoria: games preço: R$200,00 descrição: Jogo Spider-man para PS4
-
-id 13 nome: jogo pac-man categoria: games preço: R$180,00 descrição: Jogo Pac-man para Xbox One
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/81f0d5d5-31e2-4184-91d7-04262e0e17e4" width="500px" />
+</div>
 
 https://www.youtube.com/watch?v=o8ATzYcVp08&list=PL1lueKDtZ3DcmhZX7pDk4sSgApuZwgVwb -Pesquisa 1
 
