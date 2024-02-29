@@ -336,8 +336,6 @@ https://sqliteonline.com/ -Pesquisa 2
 
 ## Dia 8: NOSQL
 
-## Dia 8: NOSQL
-
 1) Realizar uma consulta que conte o número de registros existentes.
 
 db.usuarios.count();
