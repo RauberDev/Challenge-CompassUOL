@@ -822,6 +822,7 @@ Dica 7: Transações na Internet
 Todo conteúdo usado foi achado nos vídeos recomendados pelo site do Estágio.
 
 Imagens usadas:
+
 https://previews.123rf.com/images/noono6/noono62002/noono6200200001/140943549-conceito-de-senha-f%C3%A1cil-senha-1234-escrita-em-um-papel-com-marcador.jpg
 
 https://www.indusface.com/wp-content/uploads/2022/05/KC-Image.png
