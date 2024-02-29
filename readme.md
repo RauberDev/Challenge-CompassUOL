@@ -375,7 +375,16 @@ db.nome_da_colecao.find({ "email": "ghost_silva@fantasma.com" });
   },
 ];
 
+5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".
 
+db.collection.deleteOne({ "email": "peterparker@marvel.com" });
+
+[
+  {
+    acknowledged: true,
+    deletedCount: 1,
+  },
+];
 
 1) Realizar uma consulta que apresente produtos com descrição vazia;
 
