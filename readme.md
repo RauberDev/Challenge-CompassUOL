@@ -344,10 +344,20 @@ db.usuarios.count();
 
 2) Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish".
 
+db.pessoas.update(
+  { "nome": "Teste Start" },
+  { $set: { "nome": "Teste Finish" } }
+);
 
-
-
-
+[
+  {
+    acknowledged: true,
+    modifiedCount: 1,
+    upsertedId: null,
+    upsertedCount: 0,
+    matchedCount: 1,
+  },
+];
 
 3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".
 
