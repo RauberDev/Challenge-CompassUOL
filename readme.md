@@ -335,291 +335,69 @@ https://sqliteonline.com/ -Pesquisa 2
 
 1) Realizar uma consulta que conte o número de registros existentes.
 
-db.usuarios.count();
-
-[16];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/4fe1e3ca-8cf9-4e25-a4a8-c11863e4be22" width="700px" />
+</div>
 
 2) Realizar uma consulta para alterar o usuário com o nome "Teste Start" para "Teste Finish".
 
-db.pessoas.update(
-  { "nome": "Teste Start" },
-  { $set: { "nome": "Teste Finish" } }
-);
-
-[
-  {
-    acknowledged: true,
-    modifiedCount: 1,
-    upsertedId: null,
-    upsertedCount: 0,
-    matchedCount: 1,
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/51bff01c-9f9f-4307-8019-9875f56eae37" width="700px" />
+</div>
 
 3) Realizar uma consulta para encontrar o usuário com o nome "Bruce Wayne".
 
-db.nome_da_colecao.find({ "nome": "Bruce Wayne" });
-
-
-[
-  {
-    _id: "65df7bdc37d2b65a807c7c50",
-    nome: "Bruce Wayne",
-    email: "brucewayne@gothan.com",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/79c783de-5f8c-4e8a-bfa2-fe13eea4e1bd" width="700px" />
+</div>
 
 4) Realizar uma consulta para encontrar o usuário com o e-mail "ghost_silva@fantasma.com".
 
-db.nome_da_colecao.find({ "email": "ghost_silva@fantasma.com" });
-
-
-[
-  {
-    _id: "65df7c1137d2b65a807c7c63",
-    nome: "Ghost Silva",
-    email: "ghost_silva@fantasma.com",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/85605959-aaff-4afb-acf2-991c8b46613d" width="700px" />
+</div>
 
 5) Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".
 
-db.collection.deleteOne({ "email": "peterparker@marvel.com" });
-
-[
-  {
-    acknowledged: true,
-    deletedCount: 1,
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/a2efcdd3-fced-489a-8b2e-30bdf3ff0efb" width="700px" />
+</div>
 
 1) Realizar uma consulta que apresente produtos com descrição vazia;
 
-db.produtos.find({ "descricao": "" });
-
-[
-  {
-    _id: "65df7c9a37d2b65a807c7c9c",
-    nome: "caneca chopp",
-    categoria: "utilitários",
-    preco: 25.5,
-    descricao: "",
-  },
-  {
-    _id: "65df7c9a37d2b65a807c7c9d",
-    nome: "copo grande térmico",
-    categoria: "utilitários",
-    preco: 35.9,
-    descricao: "",
-  },
-];
-
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/ae353c5f-eb6e-472c-b932-7e4cce9e771c" width="700px" />
+</div>
 
 2) Realizar uma consulta que apresente produtos com a categoria "games";
 
-db.produtos.find({ "categoria": "games" });
-
-
-[
-  {
-    _id: "65df7cbb37d2b65a807c7cb7",
-    nome: "mouse gamer",
-    categoria: "games",
-    preco: 101,
-    descricao: "Mouse com leds.",
-  },
-  {
-    _id: "65df7cbb37d2b65a807c7cb8",
-    nome: "teclado gamer",
-    categoria: "games",
-    preco: 99,
-    descricao: "Teclado com leds.",
-  },
-  {
-    _id: "65df7cbb37d2b65a807c7cb9",
-    nome: "monitor gamer",
-    categoria: "games",
-    preco: 1500,
-    descricao:
-      "Monitor grande para jogar.",
-  },
-  {
-    _id: "65df7cbb37d2b65a807c7cba",
-    nome: "jogo batman",
-    categoria: "games",
-    preco: 150,
-    descricao:
-      "Jogo do Batman para PC.",
-  },
-  {
-    _id: "65df7cbb37d2b65a807c7cbb",
-    nome: "jogo tomb raider",
-    categoria: "games",
-    preco: 100,
-    descricao:
-      "Jogo Tomb Raider para PC.",
-  },
-  {
-    _id: "65df7cbb37d2b65a807c7cbc",
-    nome: "jogo spider-man",
-    categoria: "games",
-    preco: 200,
-    descricao:
-      "Jogo Spider-man para PS4.",
-  },
-  {
-    _id: "65df7cbb37d2b65a807c7cbd",
-    nome: "jogo pac-man",
-    categoria: "games",
-    preco: 180,
-    descricao:
-      "Jogo Pac-man para Xbox One.",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/af96fe2b-2d0c-409c-8574-eff25b471263" width="700px" />
+</div>
 
 3) Realizar uma consulta que apresente produtos com preço "0";
 
-db.produtos.find({ "preco": 0 });
-
-[
-  {
-    _id: "65df7cf837d2b65a807c7cce",
-    nome: "adesivo",
-    categoria: "utilitários",
-    preco: 0,
-    descricao:
-      "desivo com precificação para produtos.",
-  },
-  {
-    _id: "65df7cf837d2b65a807c7ccf",
-    nome: "caneca",
-    categoria: "utilitários",
-    preco: 0,
-    descricao: "Caneca para café.",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/49713f41-1ae7-4d78-ae23-bbcb47e4fb92" width="700px" />
+</div>
 
 4) Realizar uma consulta que apresente produtos com o preço maior que "100.00";
 
-db.produtos.find({ "preco": { $gt: 100.00 } });
-
-[
-  {
-    _id: "65df7d1a37d2b65a807c7cec",
-    nome: "mouse gamer",
-    categoria: "games",
-    preco: 101,
-    descricao: "Mouse com leds.",
-  },
-  {
-    _id: "65df7d1a37d2b65a807c7cee",
-    nome: "monitor gamer",
-    categoria: "games",
-    preco: 1500,
-    descricao:
-      "Monitor grande para jogar.",
-  },
-  {
-    _id: "65df7d1a37d2b65a807c7cef",
-    nome: "jogo batman",
-    categoria: "games",
-    preco: 150,
-    descricao:
-      "Jogo do Batman para PC.",
-  },
-  {
-    _id: "65df7d1a37d2b65a807c7cf1",
-    nome: "jogo spider-man",
-    categoria: "games",
-    preco: 200,
-    descricao:
-      "Jogo Spider-man para PS4.",
-  },
-  {
-    _id: "65df7d1a37d2b65a807c7cf2",
-    nome: "jogo pac-man",
-    categoria: "games",
-    preco: 180,
-    descricao:
-      "Jogo Pac-man para Xbox One.",
-  },
-  {
-    _id: "65df7d1a37d2b65a807c7cf3",
-    nome: "guarda-roupas lady bug",
-    categoria: "casa",
-    preco: 2500,
-    descricao:
-      "Guarda-roupas gigante da Lady Bug.",
-  },
-  {
-    _id: "65df7d1a37d2b65a807c7cf4",
-    nome: "cama solteiro",
-    categoria: "casa",
-    preco: 1800,
-    descricao: "Cama box solteiro.",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/829c6750-fa5d-40cd-bd14-4385c8c6c331" width="700px" />
+</div>
 
 5) Realizar uma consulta que apresente produtos com o preço entre "1000.00" e "2000.00";
 
-db.produtos.find({ "preco": { $gte: 1000.00, $lte: 2000.00 } });
-
-[
-  {
-    _id: "65df7d362cb48dd753933a3c",
-    nome: "monitor gamer",
-    categoria: "games",
-    preco: 1500,
-    descricao:
-      "Monitor grande para jogar.",
-  },
-  {
-    _id: "65df7d362cb48dd753933a42",
-    nome: "cama solteiro",
-    categoria: "casa",
-    preco: 1800,
-    descricao: "Cama box solteiro.",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/b4bf192b-7cfe-4c8e-a42a-ce7e0eb4c615" width="700px" />
+</div>
 
 6) Realizar uma consulta que apresente produtos em que o nome contenha a palavra "jogo".
 
-db.produtos.find({ "nome": /jogo/i });
-
-[
-  {
-    _id: "65df7d4a37d2b65a807c7d09",
-    nome: "jogo batman",
-    categoria: "games",
-    preco: 150,
-    descricao:
-      "Jogo do Batman para PC.",
-  },
-  {
-    _id: "65df7d4a37d2b65a807c7d0a",
-    nome: "jogo tomb raider",
-    categoria: "games",
-    preco: 100,
-    descricao:
-      "Jogo Tomb Raider para PC.",
-  },
-  {
-    _id: "65df7d4a37d2b65a807c7d0b",
-    nome: "jogo spider-man",
-    categoria: "games",
-    preco: 200,
-    descricao:
-      "Jogo Spider-man para PS4.",
-  },
-  {
-    _id: "65df7d4a37d2b65a807c7d0c",
-    nome: "jogo pac-man",
-    categoria: "games",
-    preco: 180,
-    descricao:
-      "Jogo Pac-man para Xbox One.",
-  },
-];
+<div align="left">
+<img src="https://github.com/RauberDev/Sprint-1/assets/123962523/a14c9090-41e8-47be-8dca-a758c34ba333" width="700px" />
+</div>
 
 https://chat.openai.com/ - Pesquisa 1
 
@@ -631,7 +409,7 @@ https://www.mongodb.com/community/forums/ - Pesquisa 3
 
 No dia 9 Assisti os 4 vídeos recomendados e fiz um resumo de tudo o que foi apresentado.
 
-Vídeo 1: Como ser hackeado e perder todas suas informações;
+### Vídeo 1: Como ser hackeado e perder todas suas informações;
 
 Vivemos o clima perfeito para fraudes, e perdas de dados digitais!
 -Mudança muito rápida na tecnologia;
@@ -639,7 +417,7 @@ Vivemos o clima perfeito para fraudes, e perdas de dados digitais!
 -Millenials, estão mais acostumados com ambiente tecnológico, mas ainda tomam mais golpes;
 -Geração Z tem mais facilidade com a tecnologia.
 
-Dicas para ser hackeado com muito mais facilidade:
+### Dicas para ser hackeado com muito mais facilidade:
 
 1- clicar em todos os links de e-mail que você não conhece ou não sabe do que se trata;
 
@@ -651,21 +429,21 @@ Dicas para ser hackeado com muito mais facilidade:
 
 Dica: Pessoas solícitas e que buscam sempre ajudar são mais perigosas que sistemas mal configurados.
 
-Vídeo 2: Novo OWASP TOP 10 - 2021;
+### Vídeo 2: Novo OWASP TOP 10 - 2021;
 
-O que é OWASP?
+### O que é OWASP?
 
 -É uma organização que trabalha com objetivo de aprimorar a segurança de software.
 
 - Um de seus trabalhos mais importantes é atualizar um relatório com os 10 maiores riscos de segurança em uma aplicação web.
 
-Projetos Desenvolvidos:
+### Projetos Desenvolvidos:
 
 - Application Security Verification Standard (ASVS) é um padrão que contempla uma lista de requisitos e controles de segurança de aplicações.
 
 - E conta com projetos como: OWASP ZAP, OWASP Mobile Application Security Verification Standard (MASVS), OWASP Juice Shop, OpenSAMM, WSTG, etc.
 
-Principais mudanças no novo OWASP Top 2021
+### Principais mudanças no novo OWASP Top 2021
 
 - Cros Site Scripting (XXS) passou a fazer parte da categoria Injection nessa edição.
 
@@ -673,14 +451,14 @@ Principais mudanças no novo OWASP Top 2021
 
 - Insecure Deserialization deixou de ser uma categoria, para fazer parte dessa categoria maior chamada Software and Data Integrity Failures.
 
-OWASP API Security:
+### OWASP API Security:
 
 <div align="center">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/40ec77bc-583e-4dab-8ba8-6025725e71be" width="400px" />
 </div>
 
 
-Vídeo 3: Segurança de rede Wifi Doméstica;
+### Vídeo 3: Segurança de rede Wifi Doméstica;
 
 Através deste texto será apresentado quais são as ameaças e quais riscos eles podem trazer
 
@@ -708,7 +486,7 @@ Vazamento de Dados pessoais e senhas
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/8f8e6c90-2a81-4444-a914-2cb046ec2f45" width="100px" />
 </div>
 
-Como se precaver e defender dessas ameaças?
+### Como se precaver e defender dessas ameaças?
 
 Dentro da interface do roteador podemos:
 
@@ -726,7 +504,7 @@ Dentro da interface do roteador podemos:
 
 -Atualizar a firmware dos equipamentos.
 
-Como se blindar no Home-office?
+### Como se blindar no Home-office?
 
 -Evitar acessar o ambiente de trabalho em redes públicas;
 
@@ -741,7 +519,7 @@ Como se blindar no Home-office?
 
 Vídeo 4: Segurança Digital - Dicas para se proteger o dia-a-dia;
 
-Dica 1: Boas senhas
+### Dica 1: Boas senhas
 
 <div align="center">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/b1ee22a8-cda8-4a97-9922-276af00e488a" width="200px" />
@@ -749,7 +527,7 @@ Dica 1: Boas senhas
 
 EX: Senhas longas (mínimo de 12 caracteres), caracteres especiais (números, letras maiúsculas e minúsculas)
 
-Dica 2: Usar um gerenciador de senhas
+### Dica 2: Usar um gerenciador de senhas
 
 <div align="center">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/b525e890-5ee1-483e-bc96-01e94a8baaa0" width="400px" />
@@ -757,7 +535,7 @@ Dica 2: Usar um gerenciador de senhas
 
 É um aplicativo projetado especificamente para armanezar dadps de login em um "cofre" criptografado e gerar senhas complexas, para assim criar e guardar uma senha exclusiva e forte.
 
-Dica 3: MFA all the things (autenticação multifator)
+### Dica 3: MFA all the things (autenticação multifator)
 
 <div align="center">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/5b471001-fe9d-49f1-9c76-11c5e3c39cc8" width="600px" />
@@ -773,7 +551,7 @@ EX:
 
 -Reconhecimento facial;
 
-Dica 4: Cuidados com Phishing
+### Dica 4: Cuidados com Phishing
 
 
 EX:
@@ -788,7 +566,7 @@ EX:
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/3f089939-66cb-4c34-bdcf-f35105d3bd57" width="400px" />
 </div>
 
-Dica 5: Antivírus
+### Dica 5: Antivírus
 
 Ter um antivírus instalado no computador, certificar-se que está baixando atualizações automaticamente e se necessário criar exceções para aplivativos, processos e diretórios.
 
@@ -796,7 +574,7 @@ Ter um antivírus instalado no computador, certificar-se que está baixando atua
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/fb88adaf-b795-464c-9c71-287635af44e6" width="400px" />
 </div>
 
-Dica 6: Manter o software atualizado
+### Dica 6: Manter o software atualizado
 
 Certificar se o sistema operacional está configurado para baixar e instalar as atualizações de forma automática e periodicamente fazer o mesmo procedimento para os aplicativos que você utiliza.
 
@@ -804,7 +582,7 @@ Certificar se o sistema operacional está configurado para baixar e instalar as 
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/9547c2ec-33ec-467f-b9dd-227f0483408d" width="400px" />
 </div>
 
-Dica 7: Transações na Internet
+### Dica 7: Transações na Internet
 
 <div align="center">
 <img src="https://github.com/RauberDev/Sprint-1/assets/123962523/31abe364-7279-4f9b-8107-44909dc0b16a" width="400px" />
